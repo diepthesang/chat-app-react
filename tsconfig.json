@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES6",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
+    "strictPropertyInitialization": false,
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -16,9 +17,10 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "experimentalDecorators": true
   },
   "include": [
     "src"
